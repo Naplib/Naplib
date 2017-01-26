@@ -19,8 +19,8 @@ if infs ~= defaultfs
 end
 
 if exist('z_score') & z_score==1
-    signalnew=(signal(:)-repmat(mean(signal,2),1,size(signal,2)))...
-        ./repmat(std(signal(500:end)),1,size(signal,2));
+    signalnew=(signal-repmat(mean(signal,2),1,size(signal,2)))...
+        ./repmat(std(signal(:,500:end)),1,size(signal,2));
 end
 
 filtered_data=eegfilt(signalnew',f,2,15,0,100);
