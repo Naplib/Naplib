@@ -1,6 +1,7 @@
 function dh2 = EcogExtractHighGamma (d, infs, outfs)
 % d: recorded data, channel x sample
 % fs: sampling rate of the data
+% outfs: sampling rate of output
 
 % Nima, nimail@gmail.com
 
