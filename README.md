@@ -25,4 +25,4 @@ End
 Signal= signal – mean(signal,1)
 
 
-3. -	[phoneme_data, phoneme_feat] = NeuralPhonemeResp(s, out, phoneme, fname, feats, loc)
+3. [phoneme_data, phoneme_feat] = NeuralPhonemeResp(s, out, phoneme, fname, feats, loc)
