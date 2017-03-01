@@ -3,7 +3,9 @@
 The library is applicable to both invasive and non-invasive recordings, including electroencephalography
 (EEG), electrocorticography (ECoG) and magnetoecnephalography (MEG).
 
-List of functions:
+
+# List of functions
+
 > stimulus: wavefiles containing continuous speech in addition to eimte-aligned labels of phonemes
 > preprocessing: 
 
@@ -12,7 +14,7 @@ List of functions:
 > Reconstruction: 
 
 
-Citation: 
+# Citation
 
 Basic citation: 
 - NAPLIB: AN OPEN SOURCE TOOLBOX FOR REAL-TIME AND OFFLINE NEURALACOUSTIC PROCESSING
