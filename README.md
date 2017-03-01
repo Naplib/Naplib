@@ -7,11 +7,28 @@ The library is applicable to both invasive and non-invasive recordings, includin
 # List of functions
 
 > stimulus: wavefiles containing continuous speech in addition to eimte-aligned labels of phonemes
+
 > preprocessing: 
+- EEGExtract2to15.m
+- EcogExtractHighGamma.m
+- CUprocessingHilbertTransform_filterbankGUI.m
 
 > Phoneme analysis: 
+- findavg.m
+- attribute2phoneme.m
+- phoneme2attribute.m
+- SimMat.m
+- Fratio.m
+- DistDistCov.m
+- Dendro.m
+- DPrime.m
+
+>GUI
+- OutGenerator
+- PhonemeAnalyser
 
 > Reconstruction: 
+
 
 
 # Citation
