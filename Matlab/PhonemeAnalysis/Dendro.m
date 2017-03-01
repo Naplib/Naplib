@@ -2,6 +2,7 @@ function [ output_args ] = Dendro( AVG, elecs, time )
 % AVG is phoneme*electrodes*time (use findavg code)
 % elecs is the number of electrodes which are used in the unsupervised clustering
 % time is the time window used for unsupervised clustering
+% By Bahar Khalighinejad (bk2556@columbia.edu)
 
 if ~exist('elecs') ||  isempty(elecs)
     elecs=1:size(AVG,2);
