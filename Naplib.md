@@ -9,4 +9,4 @@ PSI vector, selectivity to phonemes:
 - Mesgarani, Nima, et al. "Phonetic feature encoding in human superior temporal gyrus." Science 343.6174 (2014): 1006-1010.
 
 Reconstruction: 
-- 
+- Mesgarani, Nima, et al. "Influence of context and behavior on stimulus reconstruction from neural activity in primary auditory cortex." Journal of neurophysiology 102.6 (2009): 3329-3339.
