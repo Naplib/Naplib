@@ -69,7 +69,7 @@ if strcmp(mode,'Arpabet')
                 'K','B','D','G'};
             
     end
-elseif strcmp(mode,'Arpabet')
+elseif strcmp(mode,'IPA')
     
     switch lower(attrib)
         case 'voiced'
