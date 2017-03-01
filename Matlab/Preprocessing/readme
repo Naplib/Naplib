@@ -1,1 +1,2 @@
-
+For filtering of EEG data use EEGExtract2to15.m	
+For filtering of ECoG data use EcogExtractHighGamma.m
