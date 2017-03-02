@@ -1,6 +1,8 @@
 function phn = attribute2phoneme (attrib,cmd,mode)
 % attrib: mention the attribute to get the phonemes in this category
 % cmd: use 'list' to get the name of all attributes
+% e.x.: phn = attribute2phoneme('plosive') => phn = {'P','T','K','B','D','G'};
+% phn = attribute2phoneme('plosive',[],'IPA') => phn = {'p','t','k','b','d','g'};
 % mode: 'IPA' or 'Arpabet'
 % Neural Acoustic Processing Lab, 
 % Columbia University, naplab.ee.columbia.edu
