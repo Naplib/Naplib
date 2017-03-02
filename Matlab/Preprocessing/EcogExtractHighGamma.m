@@ -4,6 +4,8 @@ function dh2 = EcogExtractHighGamma (d, infs, outfs)
 % outfs: sampling rate of output
 
 % Nima, nimail@gmail.com
+% Neural Acoustic Processing Lab, 
+% Columbia University, naplab.ee.columbia.edu
 
 defaultfs = 400; % Hz
 freqRange=[70 150];
