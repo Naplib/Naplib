@@ -8,6 +8,8 @@ function [ Nmat, Amat, Covy] = DistDistCov(AVGN, AVGA,DistType )
 % Nmat (time*phoneme*phoneme)= Distance matrix based on AVGN for each time point 
 % Amat (time*phoneme*phoneme)= Distance matrix based on AVGA for each time point 
 % Covy (time*time) = covariance matrix for Amat and Nmat
+% Neural Acoustic Processing Lab, 
+% Columbia University, naplab.ee.columbia.edu
 
 if ~exist('DistType') || isempty (DistType)
     DistType='euclidean';
