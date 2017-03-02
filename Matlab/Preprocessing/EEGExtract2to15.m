@@ -9,7 +9,8 @@ function dh2 = EEGExtract2to15 (d, infs, outfs, z_score)
 % z_score: z_score flag. In the case of z_score = 1 data will be z_scored 
 
 % Bahar, bahar.kh@columbia.edu
-
+% Neural Acoustic Processing Lab, 
+% Columbia University, naplab.ee.columbia.edu
 
 defaultfs = 100; % Hz
 
