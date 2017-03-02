@@ -6,14 +6,17 @@ function [allf f fs] = DPrime(D,L,phns)
 %    class of the instance
 % phns = the unique classes
 %
-% f-statistic where f = between group variability / within group
+% f-statistic where
+% allf = distance of each phoneme from the average of all 
+% f = between group variability / within group
 % variability
-%
+% fs = standard error
 % 
 % Nima, 2010 (Connie, updated 2013)
 % modified by Bahar, 2015 (bk2556@columbia.edu)
 % Neural Acoustic Processing Lab, 
 % Columbia University, naplab.ee.columbia.edu
+%
 
 if ~exist('phns','var') || isempty(phns)
     phns = unique(L);
