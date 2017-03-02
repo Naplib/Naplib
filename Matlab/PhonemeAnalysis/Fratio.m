@@ -13,6 +13,9 @@ function [f] = Fratio(D,L,Electrode,Attribute,phnsub)
 % phnsub is the label of phonemes for example phnsub={'AA','AO','B','C',
 % ...}
 % Bahar 2015 (bk2556@columbia.edu)
+% Neural Acoustic Processing Lab, 
+% Columbia University, naplab.ee.columbia.edu
+
 
 if ~exist('Electrode') || isempty(Electrode)
     Electrode='all';
