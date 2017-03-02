@@ -1,4 +1,6 @@
 function atr = phoneme2attribute (phn,cmd)
+% Neural Acoustic Processing Lab, 
+% Columbia University, naplab.ee.columbia.edu
 
 atr = [];
 atlist = attribute2phoneme([],'list');
