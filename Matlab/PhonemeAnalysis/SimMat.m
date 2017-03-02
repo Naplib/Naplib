@@ -3,6 +3,8 @@ function [ Dist2] = SimMat( AVG, elecs, time, DistType )
 % elecs is the number of electrodes which are used in the unsupervised clustering
 % time is the time window used for unsupervised clustering
 % DistType contains the type of distance, default= euclidean
+% Neural Acoustic Processing Lab, 
+% Columbia University, naplab.ee.columbia.edu
 
 if ~exist('elecs') ||  isempty(elecs)
     elecs=1:size(AVG,2);
