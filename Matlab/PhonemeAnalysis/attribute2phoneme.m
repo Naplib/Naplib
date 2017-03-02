@@ -2,7 +2,8 @@ function phn = attribute2phoneme (attrib,cmd,mode)
 % attrib: mention the attribute to get the phonemes in this category
 % cmd: use 'list' to get the name of all attributes
 % mode: 'IPA' or 'Arpabet'
-
+% Neural Acoustic Processing Lab, 
+% Columbia University, naplab.ee.columbia.edu
 
 if ~exist('cmd','var') || isempty(cmd)
     cmd = [];
