@@ -6,7 +6,7 @@ The library is applicable to both invasive and non-invasive recordings, includin
 
 # List of functions
 
-> stimulus: wavefiles containing continuous speech in addition to eimte-aligned labels of phonemes
+> stimulus: wavefiles containing continuous speech in addition to time-aligned labels of phonemes
 
 > preprocessing: 
 - EEGExtract2to15.m
