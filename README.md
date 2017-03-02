@@ -22,10 +22,11 @@ The library is applicable to both invasive and non-invasive recordings, includin
 - DistDistCov.m
 - Dendro.m
 - DPrime.m
+- MDSPlot.m
 
 >GUI
-- OutGenerator
-- PhonemeAnalyser
+- OutGenerator.m
+- PhonemeAnalyser.m
 
 > Reconstruction: 
 
