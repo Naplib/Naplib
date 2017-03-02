@@ -12,7 +12,8 @@ function [allf f fs] = DPrime(D,L,phns)
 % 
 % Nima, 2010 (Connie, updated 2013)
 % modified by Bahar, 2015 (bk2556@columbia.edu)
- 
+% Neural Acoustic Processing Lab, 
+% Columbia University, naplab.ee.columbia.edu
 
 if ~exist('phns','var') || isempty(phns)
     phns = unique(L);
