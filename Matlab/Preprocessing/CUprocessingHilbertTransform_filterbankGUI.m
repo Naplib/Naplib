@@ -1,4 +1,6 @@
   function [filteredData,cfs,sigma_fs,hilbdata]=CUprocessingHilbertTransform_filterbankGUI(d,Fs,freqRange)
+
+% This function is used in EcogExtractHighGamma.m
 %{
 PURPOSE: Perform Hilbert transform
 
@@ -21,6 +23,9 @@ end
 
 max_freq=Fs/2;
 %}
+% Neural Acoustic Processing Lab, 
+% Columbia University, naplab.ee.columbia.edu
+
 
 %%%%%%%%%%%%%%%CREATE FILTER BANK
 a=[log10(.39); .5];
