@@ -51,7 +51,7 @@ if strcmp(mode,'Arpabet')
         case 'anterior'
             phn = {'T','D','S','Z','TH','DH','P','B','F','V','M','N','L','R'};
         case 'dorsal'
-            phn = {'k','g','ng'};
+            phn = {'K','G','NG'};
         case 'front'
             phn = {'IY','IH','EH','AE'};
         case 'back'
