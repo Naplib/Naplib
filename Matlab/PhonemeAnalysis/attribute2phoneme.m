@@ -25,8 +25,8 @@ end
 if strcmp(mode,'Arpabet')
     switch lower(attrib)
         case 'voiced'
-            phn = {'Z','V','DH','B','D','G','CH','JH','W','Y','L','R','M','N','NG','AA','AO','OW','AH','UH','UW','IY','IH','EY','EH','AE','AW','AY',...
-                'OY','ER'};%'L','R','M','N','NG',
+            phn = {'AA','AO','OW','AH','UH','UW','IY','IH','EY','EH','AE','AW','AY',...
+                'OY','W','Y','L','R','M','N','NG','Z','V','DH','B','D','G','CH','JH','ER'};
         case 'unvoiced'
             phn = {'TH','F','S','SH','P','T','K'};
         case 'sonorant'
@@ -34,7 +34,7 @@ if strcmp(mode,'Arpabet')
                 'OY','W','Y','L','R','M','N','NG'};
         case 'syllabic'
             phn = {'AA','AO','OW','AH','UH','UW','IY','IH','EY','EH','AE','AW','AY',...
-                'OY','ER'};
+                'OY'};
         case 'consonantal'
             phn = {'L','R','DH','TH','F','S','SH','Z','V','P','T',...
                 'K','B','D','G','M','N','NG'};
@@ -65,7 +65,7 @@ if strcmp(mode,'Arpabet')
         case 'fricative'
             phn = {'F','V','S','Z','SH','TH','DH'};%
         case 'semivowel'
-            phn={'W','L','R','M','N','NG','Y'};%
+            phn={'W','L','R','Y'};%
         case 'obstruent'
             phn={'DH','TH','F','S','SH','Z','V','P','T',...
                 'K','B','D','G'};
@@ -76,7 +76,7 @@ elseif strcmp(mode,'IPA')
     switch lower(attrib)
         case 'voiced'
             phn = {'aa','ao','ow','axh','uxh','uw','iy','ixh','ey','eh','ae','aw','ay',...
-                'oy','w','y','l','r','m','n','ng','z','v','dh','b','d','g'};
+                'oy','w','y','l','r','m','n','ng','z','v','dh','b','d','g','ch','jh','er'};
         case 'unvoiced'
             phn = {'th','f','s','sh','p','t','k'};
         case 'sonorant'
@@ -115,6 +115,8 @@ elseif strcmp(mode,'IPA')
             phn = {'m','n','ng'};
         case 'fricative'
             phn = {'f','v','s','z','sh','th','dh'};
+        case 'semivowel'
+            phn={'w','l','r','y'};%
         case 'obstruent'
             phn={'dh','th','f','s','sh','z','v','p','t',...
                 'k','b','d','g'};
