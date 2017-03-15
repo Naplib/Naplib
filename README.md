@@ -29,7 +29,8 @@ The library is applicable to both invasive and non-invasive recordings, includin
 - PhonemeAnalyser.m
 
 > Reconstruction: 
-
+- LagGeneratorNew.m
+- StimuliReconstruction.m
 
 
 # Citation
