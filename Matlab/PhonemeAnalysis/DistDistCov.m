@@ -24,7 +24,7 @@ for ti=size(AVGN,3) %define the time
     
     temp=tmp(:,:,ti);
     tmp1=reshape(permute(temp,[1 2 3]),[size(temp,1) size(temp,2)*size(temp,3)]);
-    Dist=pdist(tmp1,dtype,DistType);
+    Dist=pdist(tmp1,DistType);
     ltype = 'average' ;
     z = linkage( Dist,ltype);
     c = cluster(z,'cutoff',0.000000000001,'criterion','distance');
