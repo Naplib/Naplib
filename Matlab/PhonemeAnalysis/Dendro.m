@@ -1,4 +1,4 @@
-function [ output_args ] = Dendro( AVG, elecs, time )
+function [ output_args ] = Dendro( AVG, elecs, time, phnsub )
 % AVG is phoneme*electrodes*time (use findavg code)
 % elecs is the number of electrodes which are used in the unsupervised clustering
 % time is the time window used for unsupervised clustering
