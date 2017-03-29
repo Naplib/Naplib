@@ -20,7 +20,7 @@ if ~exist('phnsub')
     phnsub=[];
 end
 
-if exist('delet') 
+if exist('delet') && ~isempty(delet)
 ind=find(ismember(phnsub,delet));
 phnsub(ind)=[];
 resp(ind,:,:)=[];
