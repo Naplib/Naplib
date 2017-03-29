@@ -1,4 +1,4 @@
-function MDSPlot( AVG, elecs, time )
+function MDSPlot( AVG, elecs, time, phnsub )
 
 %  AVG (phoneme*electrodes*time) = average response to phonemes 
 % elecs is the number of electrodes which are used in the unsupervised clustering
