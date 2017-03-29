@@ -21,9 +21,9 @@ if ~exist('phnsub')
 end
 
 if exist('delet') && ~isempty(delet)
-ind=find(ismember(phnsub,delet));
-phnsub(ind)=[];
-resp(ind,:,:)=[];
+    ind=find(ismember(phnsub,delet));
+    phnsub(ind)=[];
+    resp(ind,:,:)=[];
 end
 
 
